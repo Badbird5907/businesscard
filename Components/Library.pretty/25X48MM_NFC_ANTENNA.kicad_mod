@@ -1,12 +1,12 @@
 (footprint "25X48MM_NFC_ANTENNA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" ""
-		(at 0 -14.54505 0)
+	(property "Reference" "Ref**"
+		(at 0 -15 0)
 		(layer "F.SilkS")
-		(uuid "9f2788eb-3103-489d-8f3b-bc02818829e8")
+		(uuid "b109cd84-c8f6-4835-b398-fb5cf8d488f2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,19 +17,7 @@
 	(property "Value" "25X48MM_NFC_ANTENNA"
 		(at 0 13.4851 0)
 		(layer "F.Fab")
-		(uuid "baca6246-6583-4158-96b9-4bcd740f75ba")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06e11c6d-eab1-4216-9f7a-7f9f66e5a9ce")
+		(uuid "450833e9-8ec2-40a3-af94-42b363d54a39")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "01f9d8a6-acbf-454d-8cc4-924d2f7c73d7")
+		(uuid "2b996981-da78-426c-b78f-134423032856")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8747a18e-7b69-4223-8cc6-f56394caf2f9")
+		(uuid "0fc8bb2b-3781-405c-b958-f5773ca71494")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -210,16 +198,6 @@
 		)
 		(layer "F.Cu")
 		(uuid "2984056f-aa54-415b-b595-df4bebc119d3")
-	)
-	(fp_line
-		(start -0.635 -13.462)
-		(end -0.635 -13.335)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "63038f56-6e75-466b-ae17-f6ca99e5bdc5")
 	)
 	(fp_line
 		(start -0.635 -13.335)
@@ -624,8 +602,9 @@
 	(pad "P$1" smd rect
 		(at -0.635 -13.335 90)
 		(size 0.7501 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu")
 		(solder_mask_margin 0.0508)
+		(clearance 0)
 		(thermal_bridge_angle 0)
 		(uuid "9ae42146-bb28-46d3-858d-e5f173a05e23")
 	)
@@ -633,10 +612,12 @@
 		(at 0.635 -9.525)
 		(size 0.808 0.808)
 		(drill oval 0.3005 0.3002)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0508)
+		(clearance 0)
 		(thermal_bridge_angle 0)
 		(uuid "ae3df14d-7801-4f6e-9ef7-2037ff863758")
 	)
+	(embedded_fonts no)
 )
