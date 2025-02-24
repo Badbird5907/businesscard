@@ -1,4 +1,4 @@
-24742566702507391
+24744307074394744
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65848,6 +65848,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+8-Pin-Pads
+
+
+0
+8
+8
 Library
 25X48MM_NFC_ANTENNA
 
