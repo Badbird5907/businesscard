@@ -1,0 +1,79 @@
+(footprint "HoldingHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2a3d9c88-9af9-4c3e-a0da-c2b13fdf1a08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HoldingHole"
+		(at 0 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dfeaed8-1bf5-4c61-b5f3-72c853226850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6269fca-fa24-40f7-a625-24b01fe68658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "646a4601-82ac-4d76-a493-e3fe5273c27d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -18.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99d30a40-22f9-4ad6-8ecf-7ed6e4882c5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 -9.25 90)
+		(size 18 8)
+		(drill oval 14.5 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "39242e6e-0410-43d8-9ebf-bf01d167eaea")
+	)
+	(embedded_fonts no)
+)

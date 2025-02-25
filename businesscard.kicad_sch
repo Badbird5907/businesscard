@@ -9,23 +9,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "L1"
+				(at 2.54 0.6351 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "25X48MM_NFC_ANTENNA:25X48MM_NFC_ANTENNA"
+			(property "Footprint" "Library:25X48MM_NFC_EXPOSED_ANTENNA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -104,14 +106,14 @@
 				(pin bidirectional line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "P$1"
+					(name "1"
 						(effects
 							(font
 								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -122,14 +124,14 @@
 				(pin bidirectional line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "P$2"
+					(name "2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -1797,22 +1799,10 @@
 		(uuid "0e2518c7-601e-488d-92a9-ab09b0ed854c")
 	)
 	(junction
-		(at 152.4 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29d5a631-185e-4c99-8b0b-d046a0efeee1")
-	)
-	(junction
 		(at 127 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4459dd09-66c9-4032-a40e-8ebff13d5b2c")
-	)
-	(junction
-		(at 204.47 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4be5d78a-8aab-4799-838d-6b564b42640a")
 	)
 	(junction
 		(at 91.44 85.09)
@@ -1821,10 +1811,16 @@
 		(uuid "867b2ef7-f3d0-4a94-915e-7dc74f80727a")
 	)
 	(junction
-		(at 204.47 88.9)
+		(at 203.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7cb3a63-e177-4131-9c38-fd89fff15d57")
+		(uuid "8a0363f8-18eb-4191-812c-45e1f680c677")
+	)
+	(junction
+		(at 203.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d389e31f-290e-460d-afe0-048132119ae8")
 	)
 	(wire
 		(pts
@@ -1845,6 +1841,16 @@
 			(type default)
 		)
 		(uuid "078be4ba-0b2e-4a62-9079-a9f3765caa2e")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 208.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1651f5d8-8269-4f71-a794-446427a9b549")
 	)
 	(wire
 		(pts
@@ -1918,23 +1924,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 92.71) (xy 213.36 92.71)
+			(xy 208.28 92.71) (xy 214.63 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "646aa273-f81f-4d17-b894-fc4691d97430")
-	)
-	(wire
-		(pts
-			(xy 165.1 127) (xy 165.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a027ccb-f719-4933-a49c-903e2fc5f0c9")
 	)
 	(wire
 		(pts
@@ -1948,23 +1944,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 204.47 81.28)
+			(xy 199.39 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a285a1ea-e357-46cf-8755-da7856f26b90")
-	)
-	(wire
-		(pts
-			(xy 204.47 88.9) (xy 208.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d6d545-3b1c-44a8-a7f9-8def6a729d79")
 	)
 	(wire
 		(pts
@@ -1975,6 +1961,16 @@
 			(type default)
 		)
 		(uuid "b860d922-a505-4947-8199-84f1ef8eff4f")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8da5c56-3977-48af-a2e0-eb868c9227c1")
 	)
 	(wire
 		(pts
@@ -1998,16 +1994,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 208.28 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd0b825-a423-497c-9945-fc39dcd7d556")
-	)
-	(wire
-		(pts
 			(xy 189.23 86.36) (xy 199.39 86.36)
 		)
 		(stroke
@@ -2025,16 +2011,6 @@
 			(type default)
 		)
 		(uuid "d0a1373f-bca2-4669-b42a-50ce19ecd8ff")
-	)
-	(wire
-		(pts
-			(xy 152.4 127) (xy 165.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db354577-3ce7-4a56-a434-022a9a8526e4")
 	)
 	(wire
 		(pts
@@ -2058,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 204.47 88.9)
+			(xy 199.39 88.9) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2078,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 213.36 77.47)
+			(xy 208.28 77.47) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2126,16 +2102,6 @@
 		)
 		(uuid "11e5f319-e886-4de4-81c5-92808d09cbc7")
 	)
-	(label "SWDIO"
-		(at 83.82 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1cd7ce3f-5f9d-4894-8cbb-c3c3f616f95a")
-	)
 	(label "SDA"
 		(at 115.57 97.79 180)
 		(effects
@@ -2145,16 +2111,6 @@
 			(justify right bottom)
 		)
 		(uuid "25e867a5-8817-49ee-b706-7e79917185a5")
-	)
-	(label "VDDBAT"
-		(at 76.2 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ae83452-245f-4652-a7d5-37cacff4579f")
 	)
 	(label "LEDC3"
 		(at 115.57 82.55 180)
@@ -2186,15 +2142,15 @@
 		)
 		(uuid "47ae0bfa-41b1-466f-bc4b-3d21883f1544")
 	)
-	(label "LEDC4"
-		(at 115.57 100.33 180)
+	(label "SWDIO"
+		(at 78.74 120.65 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "556b3505-42ed-4377-9126-fd2452e97cef")
+		(uuid "493d8f95-a7e3-41f0-b4e2-59b8037b391e")
 	)
 	(label "RESET"
 		(at 104.1819 90.17 180)
@@ -2206,6 +2162,16 @@
 		)
 		(uuid "56d6ea94-4b0d-468d-83ab-271f9a1dbe8e")
 	)
+	(label "WAKE"
+		(at 76.2 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66f49e2b-de65-48c1-ba44-a64c1901919b")
+	)
 	(label "SWDIO"
 		(at 189.23 93.98 0)
 		(effects
@@ -2215,6 +2181,16 @@
 			(justify left bottom)
 		)
 		(uuid "6eae0c22-7400-440e-9de9-84a4d765fa7e")
+	)
+	(label "RESET"
+		(at 83.82 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8447ea36-2c4a-4e6f-9c14-a72b55f22370")
 	)
 	(label "LEDC2"
 		(at 139.7 138.43 270)
@@ -2236,6 +2212,16 @@
 		)
 		(uuid "9ea6aad2-126d-4bba-802d-1ed63951265f")
 	)
+	(label "SWCLK"
+		(at 81.28 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b830874c-3008-463d-ba44-8d0afdf18ee4")
+	)
 	(label "LEDC1"
 		(at 127 138.43 270)
 		(effects
@@ -2245,16 +2231,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd314d66-2b4d-4a94-8a7e-f98c09e22ba3")
-	)
-	(label "LEDC4"
-		(at 165.1 138.43 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d28d234d-2dde-4700-9425-453156397b67")
 	)
 	(label "SWCLK"
 		(at 189.23 96.52 0)
@@ -2266,6 +2242,16 @@
 		)
 		(uuid "e4af096a-74b5-4240-8dc4-7198411fa88e")
 	)
+	(label "WAKE"
+		(at 114.3 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb42d0bc-2c5b-4394-826b-9af24d4d2df0")
+	)
 	(label "LEDR1"
 		(at 114.3 127 180)
 		(effects
@@ -2275,26 +2261,6 @@
 			(justify right bottom)
 		)
 		(uuid "eba0621e-8e04-410b-9c85-860fe3eddcbb")
-	)
-	(label "SWCLK"
-		(at 81.28 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3a130e7-004b-4732-84f9-47a5cace1e73")
-	)
-	(label "RESET"
-		(at 78.74 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f41b70f3-8710-4f1b-9dc4-8afaa4c5cecf")
 	)
 	(label "LEDR1"
 		(at 115.57 72.39 180)
@@ -2853,85 +2819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 165.1 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28368b0f-3b66-458c-82e8-7878f64f4113")
-		(property "Reference" "D4"
-			(at 168.91 134.9374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 168.91 137.4774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92e39e9a-99b4-40ea-8374-7fcbc3e33cf3")
-		)
-		(pin "2"
-			(uuid "3c3c9504-2e62-4156-b891-e92e0e674c58")
-		)
-		(instances
-			(project "businesscard"
-				(path "/57f92133-e803-40c7-8f5f-2b073fd15cf8"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 87.63 270)
 		(unit 1)
@@ -3272,7 +3159,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 85.09 0)
+		(at 203.2 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3281,7 +3168,7 @@
 		(fields_autoplaced yes)
 		(uuid "77a054b3-5f96-4c00-8712-30b3971a98cd")
 		(property "Reference" "C1"
-			(at 208.28 83.8199 0)
+			(at 207.01 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3177,7 @@
 			)
 		)
 		(property "Value" "1.2pF"
-			(at 208.28 86.3599 0)
+			(at 207.01 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3186,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 205.4352 88.9 0)
+			(at 204.1652 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 85.09 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3204,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 85.09 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3219,7 @@
 			(uuid "7bcdf212-7021-46fa-b938-a538bf39558b")
 		)
 		(instances
-			(project ""
+			(project "businesscard"
 				(path "/57f92133-e803-40c7-8f5f-2b073fd15cf8"
 					(reference "C1")
 					(unit 1)
@@ -3342,7 +3229,7 @@
 	)
 	(symbol
 		(lib_id "25X48MM_NFC_ANTENNA:25X48MM_NFC_ANTENNA")
-		(at 213.36 85.09 0)
+		(at 214.63 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3351,7 +3238,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e624e44-bf5d-4594-b1eb-a277ab99d1b2")
 		(property "Reference" "L1"
-			(at 215.9 84.4549 0)
+			(at 217.17 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3247,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 215.9 86.36 0)
+			(at 217.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3256,7 @@
 			)
 		)
 		(property "Footprint" "Library:25X48MM_NFC_EXPOSED_ANTENNA"
-			(at 213.36 85.09 0)
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 85.09 0)
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 85.09 0)
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,10 +3282,10 @@
 				(hide yes)
 			)
 		)
-		(pin "P$2"
+		(pin "1"
 			(uuid "6c7e7c71-3254-4bbe-b73e-a534fb714ed1")
 		)
-		(pin "P$1"
+		(pin "2"
 			(uuid "c8453c9f-682e-4b79-8489-e2f771d7637d")
 		)
 		(instances
