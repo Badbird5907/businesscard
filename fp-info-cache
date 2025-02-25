@@ -1,4 +1,4 @@
-24747787688294234
+24753009612446401
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65870,6 +65870,13 @@ Library
 2
 2
 Library
+Contact
+
+
+0
+0
+0
+Library
 HoldingHole
 
 
@@ -65885,6 +65892,20 @@ NXP LPC8N04FHI24E
 25
 Library
 Name_1
+
+
+0
+0
+0
+Library
+Position
+
+
+0
+0
+0
+Library
+Wireless_icon
 
 
 0
