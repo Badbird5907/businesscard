@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.25 0)
+		(at 0 -8.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "da5cd028-1812-4ff7-8aa2-cda11b4c9590")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "8-Pin-Pads"
-		(at 0 5 0)
+		(at 0 7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,30 +55,8 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -8.5 -2.5)
-		(end 8.5 3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "B.CrtYd")
-		(uuid "eeb9007e-8571-4560-92a0-15781446a539")
-	)
-	(fp_rect
-		(start -8.5 -2.5)
-		(end 8.5 3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "87116974-d594-4608-86d9-f9242452f99d")
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.5 0)
+		(at 0 6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "05704d58-e506-49e9-b143-f57a235bf40a")
@@ -90,10 +68,10 @@
 		)
 	)
 	(pad "1" thru_hole custom
-		(at -7 0.25)
+		(at -5.25 0.25)
 		(size 1 1)
-		(drill 0.5
-			(offset 0 -0.25)
+		(drill 1
+			(offset 0.5 -0.25)
 		)
 		(property pad_prop_testpoint)
 		(layers "*.Cu" "*.Mask")
@@ -105,7 +83,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.75 -2.25) (xy -0.4 -2.25) (xy -1 -1.25) (xy -1 1.75) (xy -0.4 2.75) (xy 0.75 2.75)
+					(xy 0.75 -3.5) (xy -1.15 -3.5) (xy -2.25 -1.666667) (xy -2.25 2.166667) (xy -1.15 4) (xy 0.75 4)
 				)
 				(width 0.2)
 				(fill yes)
@@ -114,9 +92,9 @@
 		(uuid "2d3ca855-73b1-43a2-9ed0-30b03701d120")
 	)
 	(pad "2" thru_hole custom
-		(at -5 0.25)
+		(at -1.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -129,7 +107,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
@@ -138,9 +116,9 @@
 		(uuid "fc8d491f-0b01-4fe2-9b42-1de93641392d")
 	)
 	(pad "3" thru_hole custom
-		(at -3 0.25)
+		(at 2.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -153,18 +131,18 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "9d492beb-b14c-46cb-b5cb-e27971cecc93")
+		(uuid "fce5bbf6-a7e5-4c77-a596-b1bfde9e010d")
 	)
 	(pad "4" thru_hole custom
-		(at -1 0.25)
+		(at 6.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -177,18 +155,18 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "69a1cfa8-17d1-466a-a284-cfd957cd43a2")
+		(uuid "eb68714d-310f-4074-b053-523e6388eb31")
 	)
 	(pad "5" thru_hole custom
-		(at 1 0.25)
+		(at 10.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -201,18 +179,18 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "37afe46c-e587-4d0f-a776-0dbe32c0280c")
+		(uuid "703217e3-d4cf-487e-8221-6b0cc3aa3d55")
 	)
 	(pad "6" thru_hole custom
-		(at 3 0.25)
+		(at 14.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -225,18 +203,18 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "165a306f-40a8-4a4d-acbb-4f460fe14b7c")
+		(uuid "a41b2897-1fc7-4753-8639-29ad6dce24ae")
 	)
 	(pad "7" thru_hole custom
-		(at 5 0.25)
+		(at 18.5 0.25)
 		(size 1 1)
-		(drill 0.5
+		(drill 1
 			(offset 0 -0.25)
 		)
 		(property pad_prop_testpoint)
@@ -249,19 +227,19 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.75 -2.25) (xy -0.75 2.75) (xy 0.75 2.75) (xy 0.75 -2.25)
+					(xy -1.5 -3.5) (xy -1.5 4) (xy 1.5 4) (xy 1.5 -3.5)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "811c0a3c-fe95-4795-b37c-f74d7c642d11")
+		(uuid "b91d0fda-cd92-4cd6-ac14-15cef7760b7c")
 	)
 	(pad "8" thru_hole custom
-		(at 7 0.25 180)
+		(at 22.25 0.25 180)
 		(size 1 1)
-		(drill 0.5
-			(offset 0 -0.25)
+		(drill 1
+			(offset 0.5 -0.25)
 		)
 		(property pad_prop_testpoint)
 		(layers "*.Cu" "*.Mask")
@@ -273,13 +251,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.75 -2.25) (xy -0.4 -2.25) (xy -1 -1.25) (xy -1 1.75) (xy -0.4 2.75) (xy 0.75 2.75)
+					(xy 0.75 -3.5) (xy -1.15 -3.5) (xy -2.25 -1.666667) (xy -2.25 2.166667) (xy -1.15 4) (xy 0.75 4)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "52c85884-6ed7-45c7-80bc-e73500b1f6f9")
+		(uuid "8acd7253-9c59-4e92-8869-8b6eb7c88a32")
 	)
 	(embedded_fonts no)
 )
