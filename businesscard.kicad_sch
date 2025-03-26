@@ -2903,7 +2903,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 118.11 123.19 90)
 			(effects
 				(font
