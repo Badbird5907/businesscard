@@ -66,11 +66,13 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole roundrect
+	(pad "1" thru_hole roundrect
 		(at 0 -9.25 90)
 		(size 18 8)
 		(drill oval 14.5 4.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(roundrect_rratio 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "39242e6e-0410-43d8-9ebf-bf01d167eaea")
